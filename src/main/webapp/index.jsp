@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ taglib prefix = "s" uri = "/struts-tags" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,10 +8,10 @@
 <title>Login page</title>
 </head>
 <body>
-	<s:form action="login">
-		<s:textfield name="username" label="Enter Username"></s:textfield>
-		<s:textfield name="password" label="Enter Password"></s:textfield>
-		<s:submit value="Login"></s:submit>
-	</s:form>
+	<form action="login" method="post">
+        <input name="username"  ></input>
+        <input name="password"  ></input>
+        <button type="submit" value="Login"></button>
+    </form>
 </body>
 </html>

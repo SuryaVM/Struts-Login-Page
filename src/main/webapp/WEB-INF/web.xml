@@ -22,5 +22,5 @@
         <filter-name>struts2</filter-name>
         <url-pattern>/*</url-pattern> <!-- Routes all requests through Struts -->
     </filter-mapping>
-
+  
 </web-app>
